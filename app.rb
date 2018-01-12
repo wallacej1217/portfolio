@@ -11,6 +11,10 @@ get '/' do
   erb :index
 end
 
+get '/sites' do
+  erb :sites
+end
+
 # Providing model information to the view
 # requires an instance variable (prefixing with the '@' symbol)
 
