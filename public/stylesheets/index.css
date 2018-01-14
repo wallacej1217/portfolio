@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 
 body {
   margin: 0;
@@ -10,7 +8,7 @@ body {
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -18,13 +16,10 @@ header{
   background: #AEB6BF;
 }
 
-.nav-wrapper{
-
-}
 
 nav ul li{
   margin: -5px;
-  margin-top: 10px;
+  margin-top: 7px;
   margin-left: 30px;
   list-style-type: none;
   float: left;
@@ -37,7 +32,7 @@ position: relative;
 
 h1{
 float: left;
-padding-top: 13px;
+padding-top: 9px;
 }
 
 header::after{
@@ -79,4 +74,47 @@ nav ul{
   width: 100%;
   line-height: 40px;
   height: 80px;
+}
+
+.photo{
+  border-radius: 50%;
+  border: 5px solid black;
+  margin-top: 150px;
+  padding: 2px;
+  margin-left: 25px;
+
+
+}
+
+p{
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+  column-count: 1;
+  column-width: 10px;
+  margin-bottom: 200px;
+}
+
+h2{
+  text-align: center;
+}
+
+.linked{
+  display: inline-block;
+}
+
+.git{
+  display: inline-block;
+}
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: #AEB6BF;
+    color: white;
+    text-align: center;
 }
