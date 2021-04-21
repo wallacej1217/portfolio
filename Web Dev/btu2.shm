@@ -48,7 +48,7 @@ body {
 <body>
 
 <div class="sidenav">
-    <img src="/img/Suez_3.png" alt="Suez_3" style="width:155px;height:100px;">
+    <img src="/custom/img/Suez_3.png" alt="Suez_3" style="width:155px;height:100px;">
   <a href="indEX.shm">BTU Select</a>
   <a href="/custom/btu1.shm">BTU 1</a>
   <a href="/custom/btu3.shm">BTU 3</a>
