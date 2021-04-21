@@ -1,8 +1,11 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" CONTENT="10; URL=btu1.html">
+  <meta http-equiv="refresh" CONTENT="10; URL=/custom/btu3.shm">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -18,11 +21,10 @@ body {
   background-color: #030f40;
   overflow-x: hidden;
   padding-top: 20px;
-
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 7px 9px 7px 18px;
   text-decoration: none;
   font-size: 25px;
   color: #99ff33;
@@ -49,36 +51,48 @@ body {
 
 <div class="sidenav">
     <img src="/img/Suez_3.png" alt="Suez_3" style="width:155px;height:100px;">
-  <a href="index.html">BTU Select</a>
-  <a href="btu2.html">BTU 2</a>
-  <a href="btu3.html">BTU 3</a>
-  <a href="btu4.html">BTU 4</a>
-  <a href="btu5.html">BTU 5</a>
-  <a href="btu6.html">BTU 6</a>
+  <a href="indEX.shm">BTU Select</a>
+  <a href="/custom/btu1.shm">BTU 1</a>
+  <a href="/custom/btu2.shm">BTU 2</a>
+  <a href="/custom/btu4.shm">BTU 4</a>
+  <a href="/custom/btu5.shm">BTU 5</a>
+  <a href="/custom/btu6.shm">BTU 6</a>
 </div>
 
 <div class="main">
-  <h2>BTU 1</h2>
+  <h2>BTU 3</h2>
 
   <h2 style="font-size:30px;">pH</h2>
-    <!--#echo var = "3cv" -->
+    <!--#echo var = "3+v" -->
+    <br>
 
    <h3 style="font-size:30px;">ORP</h3>
-        <!--#echo var = "3cv" -->
+        <!--#echo var = "3-v" -->
+        <br>
 
     <h4 style="font-size:30px;">Probe 1 Corrosion</h4>
-          <!--#echo var = "1cv" -->
+          <!--#echo var = "1+v" -->
+          <br>
 
       <h4 style="font-size:30px;">Probe 1 IMB</h4>
-        <!--# echo var = "1cv" -->
+        <!--#echo var = "1-v" -->
+        <br>
 
        <h4 style="font-size:30px;">Probe 2 Corrosion</h4>
-          <!--# echo var = "2cv" -->
+          <!--#echo var = "2+v" -->
+          <br>
 
         <h4 style="font-size:30px;">Probe 2 IMB</h4>
-           <!--# echo var = "2cv" -->
+           <!--#echo var = "2-v" -->
+           <br>
 
-</div>
+
 
 </body>
+</html>
+
+
+
+
+  </body>
 </html>
