@@ -31,9 +31,11 @@ body {
   display: block;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+.sidenav a.active {
+  background-color: #99ff33;
+  color: white;
 }
+
 
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
@@ -63,6 +65,7 @@ body {
   <h2>BTU 3</h2>
 
   <h2 style="font-size:30px;">pH</h2>
+
     <!--#echo var = "1001cv" -->
     <br>
 
