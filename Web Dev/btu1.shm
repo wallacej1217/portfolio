@@ -59,8 +59,7 @@ body {
 </div>
 
 <div class="main">
-  <h2>BTU 1</h2> <img src="/custom/img/btu1.png" alt="btu1" style="float:right;width:400px;height:400px; ">
-
+  <h2>BTU 1</h2> 
   <h2 style="font-size:30px;">pH</h2>
     <!--#echo var = "3cv" -->
 
