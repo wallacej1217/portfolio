@@ -29,9 +29,11 @@ body {
   display: block;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+.sidenav a:hover:not(.active) {
+  background-color: #99ff33;
+  color: #030f40;
 }
+
 
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */

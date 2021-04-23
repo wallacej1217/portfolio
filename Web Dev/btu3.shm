@@ -33,7 +33,7 @@ body {
 
 .sidenav a:hover:not(.active) {
   background-color: #99ff33;
-  color: white;
+  color: #030f40;
 }
 
 
